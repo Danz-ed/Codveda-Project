@@ -11,9 +11,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 15px 20px;
   background: #171717;
   color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 .nav-links {
   list-style: none;
@@ -30,6 +33,11 @@
 .nav-links a:hover {
   color: #f39c12;
 }
+.hamburger {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
 
 /* Hero */
 .hero {
@@ -42,6 +50,7 @@
   align-items: center;
   color: #fff;
   text-align: center;
+  padding: 0 20px;
 }
 .hero h1 {
   font-size: 3rem;
@@ -76,10 +85,47 @@
   border-radius: 10px;
 }
 
+/* About & Contact */
+.about, .contact {
+  padding: 50px;
+  text-align: center;
+}
+
 /* Footer */
 footer {
   text-align: center;
   padding: 20px;
   background: #171717;
   color: #fff;
+}
+
+/* Animations */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background: #171717;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .nav-links li {
+    margin: 10px 0;
+  }
+  .hamburger {
+    display: block;
+  }
 }
