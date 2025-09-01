@@ -14,6 +14,8 @@ function updateDisplay() {
 incrementBtn.addEventListener('click', () => {
   count++;
   updateDisplay();
+  counterDisplay.classList.add('green');
+  counterDisplay.classList.remove('red', 'black');
 });
 
 // Decrement (doesn't go below zero)
@@ -21,6 +23,8 @@ decrementBtn.addEventListener('click', () => {
   if (count > 0) {
     count--;
     updateDisplay();
+    counterDisplay.classList.add('red');
+    counterDisplay.classList.remove('green', 'black');
   }
 });
 
@@ -28,4 +32,6 @@ decrementBtn.addEventListener('click', () => {
 resetBtn.addEventListener('click', () => {
   count = 0;
   updateDisplay();
+  counterDisplay.classList.add('black');
+  counterDisplay.classList.remove('green', 'red');
 });
