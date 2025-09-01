@@ -25,13 +25,15 @@ A modern, responsive landing page built with semantic **HTML**, **CSS (Flexbox/G
 An interactive form that validates user input in real-time using **Vanilla JavaScript**.
 
 ### Features:
-- Input fields: Name, Email, Phone Number, Password
-- Real-time validation with error messages
+- Input fields: **Name, Email, Phone Number, Password**
+- **Real-time validation** while typing and on blur (leaving input)
+- **Dynamic error messages** (no page reload)
 - Email format validation
-- Phone number must be 10–15 digits
-- Password strength requirement (min. 6 characters)
+- Phone number must be **10–15 digits**
+- Password strength requirement (**min. 6 characters**)
 - Success highlighting for valid inputs
 - Clean and professional form design
+- Displays success alert when all inputs are valid
 
 🔗 **Live Demo:** [View Task 2](https://danz-ed.github.io/Codveda-Project/task2-interactive-form/)
 
