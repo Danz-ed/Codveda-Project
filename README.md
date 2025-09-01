@@ -39,6 +39,20 @@ An interactive form that validates user input in real-time using **Vanilla JavaS
 
 ---
 
+## ✅ Task 3: Counter App (Basic DOM Manipulation)
+A simple counter app built with **HTML, CSS, and JavaScript**, demonstrating **basic DOM manipulation**.
+
+### Features:
+- Counter display showing current value
+- **Increment button** → increases count
+- **Decrement button** → decreases count (cannot go below zero)
+- **Reset button** → resets counter to zero
+- Minimal, responsive UI
+
+🔗 **Live Demo:** [View Task 3](https://danz-ed.github.io/Codveda-Project/task3-counter-app/)
+
+---
+
 ## 📌 Notes
 - All tasks are built **from scratch** with clean, semantic HTML and responsive design.
 - No frameworks used unless specified in the task.
@@ -47,5 +61,5 @@ An interactive form that validates user input in real-time using **Vanilla JavaS
 ---
 
 👨‍💻 **Author:** Daniel Zelalem Tiruneh  
-📧 Contact: [support@codveda.com](mailto:support@codveda.com) (Internship contact)  
-🔗 LinkedIn:https://www.linkedin.com/in/daniel-zelalem-3741a7252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+📧 Internship Contact: [support@codveda.com](mailto:support@codveda.com)  
+🔗 LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/YOUR-LINKEDIN/)
