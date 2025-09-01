@@ -62,4 +62,4 @@ A simple counter app built with **HTML, CSS, and JavaScript**, demonstrating **b
 
 👨‍💻 **Author:** Daniel Zelalem Tiruneh  
 📧 Internship Contact: [support@codveda.com](mailto:support@codveda.com)  
-🔗 LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/YOUR-LINKEDIN/)
+🔗 LinkedIn: [Daniel Zelalem Tiruneh](https://www.linkedin.com/in/daniel-zelalem-3741a7252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
