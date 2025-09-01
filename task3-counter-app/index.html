@@ -1,61 +1,21 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
-}
-
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background: #f4f4f4;
-}
-
-.container {
-  background: white;
-  padding: 30px;
-  border-radius: 10px;
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-h1 {
-  margin-bottom: 20px;
-}
-
-.counter-display {
-  font-size: 3rem;
-  margin: 20px 0;
-  font-weight: bold;
-  transition: color 0.3s ease;
-}
-
-.counter-display.green {
-  color: green;
-}
-
-.counter-display.red {
-  color: red;
-}
-
-.counter-display.black {
-  color: black;
-}
-
-.buttons button {
-  margin: 5px;
-  padding: 10px 20px;
-  font-size: 1rem;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  background: #007BFF;
-  color: white;
-  transition: background 0.3s;
-}
-
-.buttons button:hover {
-  background: #0056b3;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Counter App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Counter App</h1>
+    <div class="counter-display black" id="counter">0</div>
+    <div class="buttons">
+      <button id="increment">Increment</button>
+      <button id="decrement">Decrement</button>
+      <button id="reset">Reset</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
