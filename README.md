@@ -38,15 +38,15 @@ An interactive form that validates user input in real-time using **Vanilla JavaS
 🔗 **Live Demo:** [View Task 2](https://danz-ed.github.io/Codveda-Project/task2-interactive-form/)
 
 ---
-
 ## ✅ Task 3: Counter App (Basic DOM Manipulation)
 A simple counter app built with **HTML, CSS, and JavaScript**, demonstrating **basic DOM manipulation**.
 
 ### Features:
 - Counter display showing current value
-- **Increment button** → increases count
-- **Decrement button** → decreases count (cannot go below zero)
-- **Reset button** → resets counter to zero
+- **Increment button** → increases count (counter turns green)
+- **Decrement button** → decreases count (counter turns red, cannot go below zero)
+- **Reset button** → resets counter to zero (counter turns black)
+- Visual feedback for each action (color changes)
 - Minimal, responsive UI
 
 🔗 **Live Demo:** [View Task 3](https://danz-ed.github.io/Codveda-Project/task3-counter-app/)
