@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Codveda-Project/static/css/main.e6c13ad2.css",
+    "main.js": "/Codveda-Project/static/js/main.2addb09c.js",
+    "static/js/453.aaa20221.chunk.js": "/Codveda-Project/static/js/453.aaa20221.chunk.js",
+    "index.html": "/Codveda-Project/index.html",
+    "main.e6c13ad2.css.map": "/Codveda-Project/static/css/main.e6c13ad2.css.map",
+    "main.2addb09c.js.map": "/Codveda-Project/static/js/main.2addb09c.js.map",
+    "453.aaa20221.chunk.js.map": "/Codveda-Project/static/js/453.aaa20221.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.2addb09c.js"
+  ]
+}
