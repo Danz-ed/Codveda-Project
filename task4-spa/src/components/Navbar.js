@@ -1,12 +1,22 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import "./Navbar.css";
 
 function Navbar() {
   return (
-    <nav style={{ background: "#007BFF", padding: "10px" }}>
-      <Link to="/" style={{ margin: "0 10px", color: "white", textDecoration: "none" }}>Home</Link>
-      <Link to="/about" style={{ margin: "0 10px", color: "white", textDecoration: "none" }}>About</Link>
-      <Link to="/contact" style={{ margin: "0 10px", color: "white", textDecoration: "none" }}>Contact</Link>
+    <nav className="navbar">
+      <h2 className="logo">Codveda SPA</h2>
+      <div className="nav-links">
+        <NavLink to="/" end className="nav-item">
+          Home
+        </NavLink>
+        <NavLink to="/about" className="nav-item">
+          About
+        </NavLink>
+        <NavLink to="/contact" className="nav-item">
+          Contact
+        </NavLink>
+      </div>
     </nav>
   );
 }

@@ -1,7 +1,13 @@
 import React from "react";
 
 function Home() {
-  return <h2>Welcome to the Home Page!</h2>;
+  return (
+    <section className="hero">
+      <h1>Welcome to Codveda SPA</h1>
+      <p>A modern Single Page Application built with React</p>
+      <a href="#/about" className="btn">Learn More</a>
+    </section>
+  );
 }
 
 export default Home;
