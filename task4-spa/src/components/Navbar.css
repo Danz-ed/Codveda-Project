@@ -5,6 +5,9 @@
   background: #007BFF;
   padding: 15px 30px;
   color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .logo {
@@ -15,6 +18,7 @@
 .nav-links {
   display: flex;
   gap: 15px;
+  transition: max-height 0.3s ease-in-out;
 }
 
 .nav-item {
@@ -27,4 +31,33 @@
 .nav-item:hover,
 .nav-item.active {
   color: #FFD700;
+}
+
+/* Hamburger hidden by default */
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  .nav-links {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: #007BFF;
+    flex-direction: column;
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+  }
+
+  .nav-links.open {
+    max-height: 300px;
+  }
+
+  .hamburger {
+    display: block;
+  }
 }
