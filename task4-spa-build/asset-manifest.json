@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Codveda-Project/task4-spa-build/static/css/main.e6c13ad2.css",
-    "main.js": "/Codveda-Project/task4-spa-build/static/js/main.e6971e00.js",
+    "main.css": "/Codveda-Project/task4-spa-build/static/css/main.caf9ad45.css",
+    "main.js": "/Codveda-Project/task4-spa-build/static/js/main.ba371fbb.js",
     "static/js/453.aaa20221.chunk.js": "/Codveda-Project/task4-spa-build/static/js/453.aaa20221.chunk.js",
     "index.html": "/Codveda-Project/task4-spa-build/index.html",
-    "main.e6c13ad2.css.map": "/Codveda-Project/task4-spa-build/static/css/main.e6c13ad2.css.map",
-    "main.e6971e00.js.map": "/Codveda-Project/task4-spa-build/static/js/main.e6971e00.js.map",
+    "main.caf9ad45.css.map": "/Codveda-Project/task4-spa-build/static/css/main.caf9ad45.css.map",
+    "main.ba371fbb.js.map": "/Codveda-Project/task4-spa-build/static/js/main.ba371fbb.js.map",
     "453.aaa20221.chunk.js.map": "/Codveda-Project/task4-spa-build/static/js/453.aaa20221.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.e6971e00.js"
+    "static/css/main.caf9ad45.css",
+    "static/js/main.ba371fbb.js"
   ]
 }
