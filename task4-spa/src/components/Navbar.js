@@ -22,6 +22,9 @@ function Navbar() {
         <NavLink to="/contact" className="nav-item" onClick={() => setIsOpen(false)}>
           Contact
         </NavLink>
+        <NavLink to="/users" className="nav-item" onClick={() => setIsOpen(false)}>
+          Users
+        </NavLink>
       </div>
       <div className="hamburger" onClick={toggleMenu}>
         ☰
