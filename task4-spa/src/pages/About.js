@@ -2,19 +2,13 @@ import React from "react";
 
 function About() {
   return (
-    <section className="about fade-in">
+    <section className="section fade-in">
       <h2>About Us</h2>
-      <p>This SPA was created as part of the Codveda internship project.</p>
-      <div className="cards">
-        <div className="card fade-in">
-          <h3>Our Mission</h3>
-          <p>To build modern, responsive, and scalable web applications.</p>
-        </div>
-        <div className="card fade-in">
-          <h3>Our Team</h3>
-          <p>Driven by passion and innovation in software development.</p>
-        </div>
-      </div>
+      <p>
+        This Single Page Application (SPA) is part of my Codveda internship. 
+        It demonstrates core web development skills like building 
+        responsive layouts, using REST APIs, and managing routes with React Router.
+      </p>
     </section>
   );
 }
